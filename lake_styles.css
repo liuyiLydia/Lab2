@@ -1,0 +1,89 @@
+﻿@charset "utf-8";/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: 
+   Date:   
+   
+   Filename: lake_styles.css
+
+*/
+@font-face {
+   font-family: myFirstFont1;
+   src: url(cac_champagne.woff);
+ }
+ @font-face {
+   font-family: myFirstFont2;
+   src: url(DobkinPlain.woff);
+
+ }
+ @font-face {
+   font-family: myFirstFont3;
+   src: url(DobkinPlain.ttf);
+
+ }
+ @font-face {
+   font-family: myFirstFont4;
+   src: url(cac_champagne.ttf);
+
+ }
+h2{
+   color:white;
+   font-family:myFirstFont4;
+}
+h1{
+   font-size:40px;
+   font-family:myFirstFont1;
+
+}
+html {
+	background-color:rgb(171, 201, 53);
+ }
+body{
+   background-color: rgb(98, 9, 125);
+}
+header{
+   background-color:blueviolet;
+}
+body > section#leftcol > p{
+  padding-left: 20px;
+}
+#leftcol{
+   background-color: black;
+   color:white;
+}
+#rightcol{
+   background-color:rgb(98, 9, 125);
+}
+blockquote{
+   color:rgb(218, 80, 239);
+   align-items: center;
+}
+footer{
+   background-color:dimgray;
+   color:white;
+}
+aside{
+   background-color: coral;
+   border: 10px;
+}
+section#leftcol aside{
+a:link{
+  color:rgb(214, 60, 145);
+}}
+
+header > nav > ul > li
+{a:link {
+   color: rgb(215, 203, 167);
+}
+}
+body > section#rightcol{a:link {
+   color: rgb(221, 207, 162);
+}
+}
+
+
+
+
